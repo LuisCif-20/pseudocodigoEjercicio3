@@ -1,0 +1,11 @@
+Proceso
+	var valorN
+	var factorial
+	Escribir "Ingrese un numero"
+	Leer valorN
+	factorial <- valorN
+	Para i = 1, hasta i < valorN, i = i+1
+		factorial <- factorial*(valorN-i)
+	FinPara
+	Escribir "El factorial de " + valorN + " es " + factorial
+FinProceso
